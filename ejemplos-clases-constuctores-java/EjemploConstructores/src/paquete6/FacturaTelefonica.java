@@ -12,13 +12,20 @@ public class FacturaTelefonica {
     private double valorMinuto;
     private double valorFactura;
 
+    
     public FacturaTelefonica() {
         numeroTelefono = "234567891";
         minutosMes = 200;
         valorMinuto = 0.15;
 
     }
+    public FacturaTelefonica(String a) {
+        numeroTelefono = a;
+        minutosMes = 200;
+        valorMinuto = 0.15;
 
+    }
+    
     public FacturaTelefonica(String numTel, double mMes,
             double vMinuto) {
 
